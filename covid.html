@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Population graph app</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js'></script>
+    <script defer src='./myChartCovid.js'></script>
+</head>
+
+<body>
+   
+    <div class='navbar'>
+        <ul>
+            <li><a href="covid.html">Covid-19 graphs</li>
+            <li><a href="index.html">Population graphs</li>
+        </ul>
+    </div>
+    
+    <div class='content'>
+      
+    <h1 class='h1covid'>Covid-19 graphs</h1>
+    <img class='kuva2' src="stopcovid.jpg" alt="Stop covid19">
+    <p class='ohje'>Enter  <a href="https://fi.wikipedia.org/wiki/Suomen_maakunnat" target='_blank'>finnish region name</a></p>
+    <input class='textinputarea' placeholder='Area' type='text' id='area'/>
+    <p>
+        <button type='submit' class='button' id='renderBtn'>Render covid graph</button>
+    </p>
+    
+    <div class='container'>
+    <canvas id='myChart'></canvas>
+    </div>
+
+
+</div>
+<footer>
+    <p>Corona infection data: THL & HS
+    </p>
+</footer>
+</body>
+
+
+
+</html>

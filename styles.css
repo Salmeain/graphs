@@ -1,0 +1,119 @@
+.navbar {
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    width: 100%;
+    background-color:#FA5B50;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: left;
+    border-right: 1px solid #0066cc;
+    padding: 8px;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    font-size: large;
+    font-family: 'Lexend Giga', sans-serif;
+    padding: 0;
+    text-align: center;
+  }
+
+.content {
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+    padding-top: 100px;
+}
+
+
+.container {
+    width: 75vw;
+    text-align: center;
+    
+}
+
+.button {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #0066cc;
+    border: none;
+    color: #FFFFFF;
+}
+
+h1 {
+    padding: 10px;
+    color: #FA5B50;
+    font-size: 50px;
+}
+
+.h1covid {
+    padding: 10px;
+    color: #0066cc;
+    font-size: 50px;
+}
+
+.ohje {
+    padding-top: 10px;
+}
+
+.textinput {
+    padding: 10px;
+    width: 15%;
+}
+
+.textinputarea {
+    padding: 10px;
+    width: 30%;
+}
+
+footer {
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#0066cc;
+    color: white;
+    font-size: small;
+    text-align: center;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+img {
+    padding: 15px;
+    border:1px solid #FA5B50;
+
+}
+
+
+
+.kuva {
+    border-radius: 40px;
+    border-width: medium; 
+}
+
+.kuva2 {
+    border-radius: 40px;
+    border-width: medium; 
+   
+}
+
+a {
+    color: #FA5B50;
+  }
+
+
+
+
